@@ -12,6 +12,40 @@ img {
     margin: 10px;
     text-align: center;
 }
+.img-shake{
+    animation: shake 1s linear 0s infinite normal forwards;
+}
+@keyframes shake {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
 
 div {
     max-width: 30rem;
@@ -39,6 +73,7 @@ div .btn {
 
 div .content {
     padding-top: 20px;
+    margin: 10px;
     font-size: 25px;
     color: gray;
     letter-spacing: 1px;
