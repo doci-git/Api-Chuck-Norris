@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.925);
+}
+
+img {
+    
+    text-align: center;
+}
+
+div {
+    max-width: 20rem;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+}
+
+div .btn {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: darkolivegreen;
+    border-radius: 5px;
+    border-color: transparent;
+    display: block;
+    left: 50%;
+
+}
+
+.btn:hover {
+    background-color: rgba(85, 107, 47, 0.856);
+}
+
+div .content {
+    padding-top: 20px;
+    font-size: 25px;
+    color: gray;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
